@@ -1,3 +1,44 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+:root{
+    --clr-header: rgba(49,49,49,1);
+    --clr-dark-blue:rgba(75,127,156,1);
+    --clr-blue:rgba(64,119,202,1);
+    --clr-skillls: rgba(238,238,238,1);
+    --clr-black:rgba(0,0,0,1);
+    --clr-gray:rgba(196,196,196,1);
+    --clr-text:rgba(225,233,238,1);
+    --clr-shadow-desc:rgba(25,29,31,0.72); /*72%*/
+
+}
 body {
-    background-color: brown;
+    background-color: skyblue;
+}
+
+header{
+    background-color: var(--clr-header);
+
+}
+
+
+.vav__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+
+}
+.nav__list-item {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav__link{
+    text-decoration: none;
+    color: inherit;
 }
